@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-decoration: none;
+  background-color: #a7d7c5;
+  font-family: Karla;
+}
+
+.login {
+  max-width: 43.625rem;
+  max-height: 43.625rem;
+  background-color: rgba(246, 251, 249, 1);
+  padding: 4.21rem 3.78rem;
+  border-radius: 16px;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  z-index: 5;
+}
+
+.textAndInputs {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.text p {
+  font-size: 1.43rem;
+  margin-bottom: 1rem;
+  width: 36rem;
+  font-weight: 400;
+}
+
+.text span {
+  padding-top: 1rem;
+  diplay: flex;
+  font-size: 3.43rem;
+  maxwidth: 30rem;
+  text-align: center;
+  font-weight: bold;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 35.93rem;
+}
+
+.inputs input {
+  height: 5.25rem;
+  border-radius: 15.34px;
+  border: 1.534px solid rgba(0, 0, 0, 0.1);
+}
+.inputs input::placeholder {
+  padding-left: 1rem;
+  font-weight: 400;
+  line-height: 5.25rem;
+  font-size: 1.43rem;
+}
+.buttonAndNewAccount button {
+  width: 24.43rem;
+  height: 5.26rem;
+  border-radius: 26px;
+  border: none;
+  font-size: 2.1rem;
+  font-weight: 700;
+  background: #84c7ae;
+  color: #fff;
+}
+.buttonAndNewAccount p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.33rem;
+}
+.retangulo1 {
+  background: var(--Box, #c1e3d6);
+  top: -200px;
+  left: -200px;
+  z-index: 0;
+  width: 750px;
+  border-radius: 160px;
+
+  height: 750px;
+  position: fixed;
+  transform: rotate(-45deg);
+}
+.retangulo2 {
+  background: var(--Box, #c1e3d6);
+  bottom: -200px;
+  right: -200px;
+  z-index: 0;
+  width: 750px;
+  border-radius: 160px;
+
+  height: 750px;
+  position: fixed;
+  transform: rotate(-45deg);
+}
+.buttonAndNewAccount a {
+  color: #32403b;
+}
