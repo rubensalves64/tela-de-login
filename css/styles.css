@@ -66,6 +66,11 @@ body {
   height: 5.25rem;
   border-radius: 15.34px;
   border: 1.534px solid rgba(0, 0, 0, 0.1);
+  focus
+}
+.inputs input:focus{
+  border-color: #a7d7c5;
+  outline: none;
 }
 .inputs input::placeholder {
   padding-left: 1rem;
@@ -82,6 +87,13 @@ body {
   font-weight: 700;
   background: #84c7ae;
   color: #fff;
+}
+.buttonAndNewAccount button:hover {
+  cursor: pointer;
+  trasition: color 0.3s ease;
+}
+.buttonAndNewAccount button:hover {
+  opacity: 80%;
 }
 .buttonAndNewAccount p {
   font-style: normal;
